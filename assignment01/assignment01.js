@@ -24,6 +24,7 @@ function isContains(arg1, arg2) {
     });
 }
 console.log();
+console.log("The below words contains character 'a' => ");
 statements.forEach(function (str, i) {
     isContains(str.split(" "), "a");
 });
