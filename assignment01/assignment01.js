@@ -42,4 +42,4 @@ var findingWord = "the";
 statements.forEach(function (str, i) {
     occurance = isMatch(str.split(" "), findingWord, occurance);
 });
-console.log(findingWord + " occured " + occurance + " times.");
+console.log("The word '" + findingWord + "' occured " + occurance + " times.");

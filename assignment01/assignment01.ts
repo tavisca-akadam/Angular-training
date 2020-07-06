@@ -47,4 +47,4 @@ let findingWord: string = "the";
 statements.forEach((str: string, i: number) => {
     occurance = isMatch(str.split(" "), findingWord, occurance);
 });
-console.log(`Word ${findingWord} occured ${occurance} times.`);
+console.log(`The word '${findingWord}' occured ${occurance} times.`);
